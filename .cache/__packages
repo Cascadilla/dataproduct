@@ -1,0 +1,10 @@
+base
+Defaults
+devtools
+quantmod
+shiny
+shinyapps
+slidify
+TTR
+xts
+zoo
