@@ -34,7 +34,7 @@ In the next slide, I will show the core part of code currently implemented for M
 ```{r, echo=FALSE, message=FALSE}
 require(quantmod)
 ```
-```{r, message=FALSE, results='hide', fig.height = 6, fig.align = 'center'}
+```{r, message=FALSE, results='hide', warning=FALSE, fig.height = 6, fig.align = 'center'}
 getSymbols('MSFT', from = "2014-01-01"); barChart(MSFT);
 ```
 ---

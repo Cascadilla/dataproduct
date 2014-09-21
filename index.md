@@ -36,13 +36,6 @@ In the next slide, I will show the core part of code currently implemented for M
 
 ```r
 getSymbols("MSFT", from = "2014-01-01")
-```
-
-```
-## Warning: downloaded length 9093 != reported length 200
-```
-
-```r
 barChart(MSFT)
 ```
 
